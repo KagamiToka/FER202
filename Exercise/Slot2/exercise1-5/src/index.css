@@ -11,13 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.App{
-  display: flex;
-  justify-content: center;
-  font-size: 150px;
 
-}
-.react{
-  padding-left: 20px;
+.h1style{
   color: blue;
+  text-align: center;
 }
