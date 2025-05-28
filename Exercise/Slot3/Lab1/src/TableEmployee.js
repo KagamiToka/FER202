@@ -20,7 +20,7 @@ function TableEmployee() {
             <tr>
                 
                 <td>{i + 1}</td>
-                <td>{employees.id}</td>
+                <td>{employees.id != null ? employees.id : "null"}</td>
                 <td>{employees.name}</td>
                 <td>{employees.department}</td>
                 <td>{employees.age}</td>  

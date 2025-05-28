@@ -10,12 +10,13 @@ function ListEmployee() {
     return(
         <div className="listEmployee">
             <ul>
-                {employees.map((employee) => 
-                <li>
-                        <p key={employee.id}>ID: {employee.id}</p>
-                        <p key={employee.id}>Name: {employee.name}</p>
-                        <p key={employee.id}>Department: {employee.department}</p>
-                        <p key={employee.id}>Age: {employee.age}</p>
+                {employees.map((employee,i) => 
+                <li key={i}>
+                        ID: {employee.id} - Name: {employee.name} - Department: {employee.department} - Age: {employee.age}
+                        {/* <p key={i}>ID: {employee.id}</p>
+                        <p key={i}>Name: {employee.name}</p>
+                        <p key={i}>Department: {employee.department}</p>
+                        <p key={i}>Age: {employee.age}</p> */}
                 </li>
                 )}
             </ul>

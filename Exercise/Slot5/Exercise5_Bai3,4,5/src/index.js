@@ -3,25 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Employee from './Employee';
-import ListEmployee from './ListEmployee';
-import TableEmployee from './TableEmployee';
-import DisplayAvg from './AverageAge';
-import Menu from './Menu';
-import FilterEmployee from './FilterEmployee';
-import SortEmployee from './SortEmployee';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Ex3 from './Ex3';
+import Ex4 from "./Ex4"
+import Ex5 from './Ex5';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    {/* <Employee /> */}
-    {/* <ListEmployee /> */}
-    <TableEmployee />
-    {/* <DisplayAvg /> */}
-    <Menu />
-    {/* <FilterEmployee /> */}
-    {/* <SortEmployee /> */}
+    {/* <App /> */}
+    {/* <Ex3 /> */}
+    {/* <Ex4 /> */}
+    <Ex5 />
   </React.StrictMode>
 );
 
