@@ -5,30 +5,30 @@ const students = [
     id: "DE180527",
     name: "Nguyễn Văn Nam",
     city: "QuangNam",
-    image: "src/Screenshot 2025-05-28 164421.png",
+    image: "image/Nam.png",
   },
   {
     id: "DE180549",
     name: "Nguyễn Song Gia Huy",
     city: "QuangNam",
-    image: "src/image/Screenshot 2025-05-28 164523.png",
+    image: "image/Screenshot 2025-05-28 164523.png",
   },
   {
     id: "DE180591",
     name: "Lê Phước Phú Lân",
     city: "Hue",
-    image: "src/Screenshot 2025-05-28 164549.png",
+    image: "image/Screenshot 2025-05-28 164549.png",
   },
   {
     id: "DE180597",
     name: "Nguyễn Văn Hoàng Long",
     city: "DaNang",
-    image: "src/Screenshot 2025-05-28 164556.png",
+    image: "image/Screenshot 2025-05-28 164556.png",
   },
 ];
 
 const StudentCard = ({ student }) => {
-  const [attendance, setAttendance] = React.useState("Absent");
+  const [attendance, setAttendance] = React.useState("Present");
 
   return (
     <div className="card mb-4" style={{ width: "18rem" }}>

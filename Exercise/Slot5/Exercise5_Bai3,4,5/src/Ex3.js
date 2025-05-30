@@ -11,7 +11,7 @@ const Ex3 = () => {
         </div>
 
         {/* Nav links */}
-        <nav className="mb-3">
+        <nav className="mb-3 text-center">
           <a href="#" className="link-primary me-3 text-decoration-none">Active</a>
           <a href="#" className="link-primary me-3 text-decoration-none">Link</a>
           <a href="#" className="link-primary me-3 text-decoration-none">Link</a>
@@ -19,23 +19,23 @@ const Ex3 = () => {
         </nav>
 
         {/* Grid rows */}
-        <div className="border" style={{ border: '1px solid', maxWidth: '600px' }}>
-            <div className="row g-1 text-none py-1">
-                <div className="col-4" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>First col</div>
-                <div className="col-8" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>Second col</div>
+        <div className="border mx-auto" style={{ border: '1px solid', maxWidth: '600px' }}>
+            <div className="row g-1 text-none">
+                <div className="col-4 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>First col</div>
+                <div className="col-8 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>Second col</div>
             </div>
 
-            <div className="row g-1 text-none py-1 mt-2">
-                <div className="col-4" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
-                <div className="col-4" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
-                <div className="col-4" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+            <div className="row g-1 text-none">
+                <div className="col-4 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+                <div className="col-4 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+                <div className="col-4 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
             </div>
 
-            <div className="row g-1 text-none py-1 mt-2">
-                <div className="col-3" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
-                <div className="col-3" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
-                <div className="col-3" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
-                <div className="col-3" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+            <div className="row g-1 text-none">
+                <div className="col-3 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+                <div className="col-3 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+                <div className="col-3 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
+                <div className="col-3 border border-dark" style={{ backgroundColor: "#bcbcbc", padding: "8px" }}>col</div>
             </div>
         </div>
       </div>
