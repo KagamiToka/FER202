@@ -19,7 +19,9 @@ function Lab2() {
       {/* Menu Section */}
       <Row className="my-5">
         <Col>
-          <h2>Our Menu</h2>
+        <div className='text-center text-white'>
+            <h2>Our Menu</h2>
+        </div>
         </Col>
       </Row>
       
@@ -76,12 +78,14 @@ function Lab2() {
       {/* Book Your Table Section */}
       <Row className="my-5">
         <Col>
-          <h2>Book Your Table</h2>
+        <div className='text-center text-white'>
+            <h2>Book Your Table</h2>
+        </div>
         </Col>
       </Row>
 
       <Row>
-        <Col md={6}>
+        <Col md={6} className='display-flex'>
           <Form>
             <Form.Group controlId="formName">
               <Form.Label>Your Name</Form.Label>
