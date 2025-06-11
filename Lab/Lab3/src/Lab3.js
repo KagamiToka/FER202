@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Navbar, Nav, Button, Card, Form, Carousel } from 'react-bootstrap';
+import { Container, Row, Col, Navbar, Nav, Button, Card, Form, Carousel, CarouselItem } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function PizzaWebsite() {
@@ -28,6 +28,18 @@ function PizzaWebsite() {
             src="image/download.jpg" 
             alt="Neapolitan Pizza"
             style={{ objectFit: 'cover', height: '300px' }}  
+          />
+          <Carousel.Caption>
+            <h3>Neapolitan Pizza</h3>
+            <p>If you are looking for traditional Italian pizza, the Neapolitan is the best option!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="image/cach-lam-banh-pizza.webp"
+            alt="Pizza Slide 3"
+            style={{ objectFit: 'cover', height: '300px' }}
           />
           <Carousel.Caption>
             <h3>Neapolitan Pizza</h3>
