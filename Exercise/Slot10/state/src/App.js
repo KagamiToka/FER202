@@ -11,12 +11,12 @@ import { DragAndDropList } from './Ex7';
 function App() {
   return (
     <div className="App">
-      {/* <Counter /> */}
-      {/* <ControlledInput /> */}
-      {/* <ToggleVisibility /> */}
-      {/* <TodoList /> */}
-      {/* <ColorSwitcher /> */}
-      {/* <SearchFilter /> */}
+      <Counter />
+      <ControlledInput />
+      <ToggleVisibility />
+      <TodoList />
+      <ColorSwitcher />
+      <SearchFilter />
       <DragAndDropList />
     </div>
   );
