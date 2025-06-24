@@ -5,14 +5,14 @@ import Result from './Result';
 
 const questions = [
     {
-        question: "What is the capital of France",
-        options:  ["Berlin", "Paris", "Macao", "HongKong"],
-        answer: "Paris"
+        question: "What is the most favorite celebrity in VietNam",
+        options:  ["Jack(J97)", "Viruss", "Decao", "Thắng (Ngọt Band)"],
+        answer: "Jack(J97)"
     },
     {
-        question: "Which planet is known as a Red Planet",
-        options:  ["Earth", "Venus", "Jupiter", "Mars"],
-        answer: "Mars"
+        question: "Which planet is known as a 'Như một vì tinh tú'",
+        options:  ["Dev", "J97", "Jupiter", "Mars"],
+        answer: "Dev"
     },
     {
         question: "What is most influence streammer at VietNam",
