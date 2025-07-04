@@ -22,12 +22,14 @@ function Contact() {
           <Form.Label>First name</Form.Label>
           <Form.Control required type="text" placeholder="First name" defaultValue="Mark" />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+          <Form.Control.Feedback type='invalid'>Please enter your firstname</Form.Control.Feedback>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="validationCustom02">
           <Form.Label>Last name</Form.Label>
           <Form.Control required type="text" placeholder="Last name" defaultValue="Otto" />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+          <Form.Control.Feedback type='invalid'>Please enter your lastname</Form.Control.Feedback>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="validationCustomUsername">
